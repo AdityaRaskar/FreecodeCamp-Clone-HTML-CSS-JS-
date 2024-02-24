@@ -1,0 +1,187 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.logo {
+    color: white;
+    max-width: 100%;
+    margin: 6px 0;
+}
+
+
+.nav{
+    background-color: #0a0a23;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 0;
+    background-color: lightgrey;
+}
+
+.box {
+    display: block;
+    justify-content: center;
+    border: 3px solid black;
+    margin-top: 40px;
+    height: 100vh;
+    width: 450px;
+    background-color: white;
+    font-size: x-large;
+    font-weight: 520;
+    text-align: justify;
+    padding-top: 50px;
+    margin-left: 20px;
+}
+
+.loginto {
+    display: flex;
+    justify-content: center;
+}
+
+.input {
+    padding-top: 20px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.form-control {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: lightgrey;
+}
+html, body {
+    height: 100%;
+}
+
+.box {
+    display: block;
+    justify-content: center;
+    border: 3px solid black;
+    margin-top: 40px;
+    height: 80vh;
+    width: 25vw;
+    background-color: white;
+    font-size: x-large;
+    font-weight: 520;
+    text-align: justify;
+    padding-top: 50px;
+    margin-left: 20px;
+}
+
+.loginto {
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+
+.div-img{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+.img{
+    
+    height: 50px;
+    width: 50px;
+}
+.input {
+    padding-top: 30px;
+    /* width: 350px; */
+    width: 22vw;
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    font-weight: 420;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-control {
+    margin-top: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+
+
+.div-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 18px;
+    font-size: large;
+    padding: 10px;
+}
+
+.login-btn {
+    background-color: #ffbc48;
+    width: 22vw;
+    color: black;
+    border: none; 
+    cursor: pointer;
+    padding: 6px 0;
+}
+
+.Signup{
+    font-size: large;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    
+}
+
+
+span{
+    color: blue;
+}
+.footer{
+    background-color: lightgray;
+    display: block;
+    text-align: center;
+    line-height: 1.5vh;
+    padding: 16px 0;
+    font-size: 14px;
+}
+
+@media screen and (max-width : 800px) {
+    .loginto {
+        font-size : large;
+    }
+    .lastline{
+        font-size : medium;
+    }
+}
+
+@media screen and (max-width : 500px) {
+    .box{
+        font-size:small;
+    }
+    .loginto {
+        font-size : small;
+    }
+    .input{
+        font-size : small;
+    }
+    .lastline{
+        font-size : small;
+    }
+
+    
+}
